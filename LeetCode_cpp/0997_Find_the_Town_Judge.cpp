@@ -2,6 +2,7 @@
 // Problem 997: Find the Town Judge
 // https://leetcode.com/problems/find-the-town-judge/
 // Difficulty: Easy
+// Related Topics: Graph
 
 
 // For this problem, the simple logic is to keep the count of all the trusts 
