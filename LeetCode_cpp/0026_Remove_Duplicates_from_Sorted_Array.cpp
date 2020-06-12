@@ -84,7 +84,7 @@ public:
                 // increase the count of unique numbers
                 uniqCnt++;
 
-                // replace the next num of prevoious unique num with new unique num
+                // replace the next num of previous unique num with new unique num
                 nums[++prevUniqIndex] = nums[index];
             }
         }
@@ -105,13 +105,17 @@ public:
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
+        // if vector size is <= 1 then simply return its size
         if (nums.size() <= 1)
             return nums.size();
 
+        // a variable containing the count of unique numers
         int uniqCnt = 1;
 
         for (int index = 1; index < nums.size(); ++index) {
+            // check whether the current number is greater than previous unique number or not
             if (nums[index] > nums[uniqCnt - 1]) {
+                // replace the next num of previous unique num with new unique num
                 nums[uniqCnt++] = nums[index];
             }
         }
