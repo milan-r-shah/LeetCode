@@ -33,10 +33,10 @@ public:
         // if 'l2' is empty then return 'l1'
         if (!l2) return l1;
 
-        // creating a new ListNode 'root'
+        // creating a new ListNode 'head'
         ListNode* head = new ListNode();
 
-        // creatting a new ListNode 'curr' and pointing it to 'root'
+        // creatting a new ListNode 'curr' and pointing it to 'head'
         ListNode* curr = head;
 
         // loop through until BOTH 'l1' AND 'l2' point to nullptr
@@ -85,10 +85,10 @@ public:
         // if 'l2' is empty then return 'l1'
         if (!l2) return l1;
 
-        // creating a new ListNode 'root'
+        // creating a new ListNode 'head'
         ListNode* head = new ListNode();
 
-        // creatting a new ListNode 'curr' and pointing it to 'root'
+        // creatting a new ListNode 'curr' and pointing it to 'head'
         ListNode* curr = head;
 
         // loop through until ANYONE FROM 'l1' AND 'l2' points to nullptr
