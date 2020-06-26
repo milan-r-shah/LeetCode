@@ -1,9 +1,6 @@
 /*
-LeetCode
 Problem 38: Count and Say
 https://leetcode.com/problems/count-and-say/
-Difficulty: Easy
-Related Topics: String
 */
 
 /*
@@ -55,8 +52,7 @@ public:
                     cnt++;
                 } else {
                     new_str += std::to_string(cnt) + prev;
-                    index--;
-                    cnt = 0;
+                    cnt = 1;
                 }
 
                 prev = curr;
