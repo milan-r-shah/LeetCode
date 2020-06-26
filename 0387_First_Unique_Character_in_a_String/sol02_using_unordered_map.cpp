@@ -4,16 +4,16 @@ https://leetcode.com/problems/first-unique-character-in-a-string/
 */
 
 //
-// Solution 01: using map   <-- not efficient one
+// Solution 02: using unordered_map <-- unordered_map is faster than map
 //
-// Runtime: ~192 ms  (faster than 12.29% of C++ online submissions)
-// Memory:  ~10.8 MB (less than 44.37% of C++ online submissions)
+// Runtime: ~104 ms  (faster than 49.11% of C++ online submissions)
+// Memory:  ~10.9 MB (less than 16.14% of C++ online submissions)
 //
 
 class Solution {
 public:
     int firstUniqChar(string s) {
-        std::map<char, int> m;
+        std::unordered_map<char, int> m;
 
         for (auto const& ch : s) {
             m[ch]++;
