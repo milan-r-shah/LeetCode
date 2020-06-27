@@ -1,9 +1,6 @@
 /*
-LeetCode
 Problem 66: Plus One
 https://leetcode.com/problems/plus-one/
-Difficulty: Easy
-Related Topics: Array
 */
 
 //
@@ -14,14 +11,6 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
         int size = digits.size();
-
-        // if the last digit is less than 9
-        // just increment that digit by 1 and return 'digits'
-        if (digits[size - 1] < 9) {
-            digits[size - 1]++;
-            return digits;
-        }
-
         int carry = 0;
         int sum = 0;
 
@@ -38,13 +27,12 @@ public:
             carry = sum / 10;
 
             if (carry == 0)
-                break;
+                return digits;
         }
 
         // if there is still a carry then insert 1 at the beginning of 'digits'
         // e.g. 999 + 1 = 1000 i.e. [9,9,9] --> [1,0,0,0]
-        if (carry)
-            digits.insert(digits.begin(), 1);
+        digits.insert(digits.begin(), 1);
 
         return digits;
     }
