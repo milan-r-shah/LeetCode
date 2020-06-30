@@ -4,9 +4,9 @@ https://leetcode.com/problems/maximum-subarray/
 */
 
 //
-// Solution 03a: <-- Kadan's Algorithm - O(n) time complexity
+// Solution 03a: <-- Kadane's Algorithm - O(n) time complexity
 // 
-// https://youtu.be/jnoVtCKECmQ - Kadan's Algorithm
+// https://youtu.be/jnoVtCKECmQ - Kadane's Algorithm
 //
 // using if...else...
 // Runtime: ~20 ms, faster than 15.93% of C++ online submissions
@@ -34,9 +34,9 @@ public:
 };
 
 //
-// Solution 03b: <-- Kadan's Algorithm - O(n) time complexity
+// Solution 03b: <-- Kadane's Algorithm - O(n) time complexity
 //
-// https://youtu.be/jnoVtCKECmQ - Kadan's Algorithm
+// https://youtu.be/jnoVtCKECmQ - Kadane's Algorithm
 //
 // using std::max()
 // Runtime: ~20 ms, faster than 15.93% of C++ online submissions
