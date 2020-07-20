@@ -14,14 +14,14 @@ public:
     int climbStairs(int n) {
         if (n <= 2) return n;
 
-        int n1 = 1;
-        int n2 = 2;
+        int n1 = 2;
+        int n2 = 1;
         int n3 = 0;
 
         for (int i = 2; i < n; i++) {
             n3 = n1 + n2;
-            n1 = n2;
-            n2 = n3;
+            n2 = n1;
+            n1 = n3;
         }
 
         return n3;
@@ -50,5 +50,29 @@ public:
         }
 
         return all_ways;
+    }
+};
+
+//
+// Solution 03c: Fibonacci series based - Bottom-up approach
+//
+// using vector: vec[n] = vec[n-1] + vec[n-2]
+//
+
+class Solution {
+public:
+    int climbStairs(int n) {
+        if (n <= 2) return n;
+
+        std::vector<int> combinations(n + 1);
+
+        combinations[1] = 1;
+        combinations[2] = 2;
+
+        for (int i = 3; i <= n; i++) {
+            combinations[i] = combinations[i - 1] + combinations[i - 2];
+        }
+
+        return combinations[n];
     }
 };
