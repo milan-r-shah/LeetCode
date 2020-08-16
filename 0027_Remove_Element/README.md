@@ -18,8 +18,7 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 <pre>
 Given <i>nums</i> = <b>[3,2,2,3]</b>, <i>val</i> = <b>3</b>,
 
-Your function should return length = <b>2</b>, with the first two elements of nums 
-being <b>2</b>.
+Your function should return length = <b>2</b>, with the first two elements of nums being <b>2</b>.
 
 It doesn't matter what you leave beyond the returned length.
 </pre>
