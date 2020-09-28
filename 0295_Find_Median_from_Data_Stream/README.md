@@ -47,4 +47,4 @@ findMedian() -> 2
 ---
 
 **Useful Links:**
-1. Median of stream of running integers | Heaps, Priority Queues Application | Explanation from <br>Basics -- [video](https://youtu.be/EcNbRjEcb14)
+1. Median of stream of running integers | Heaps, Priority Queues Application | Explanation from Basics -- [video](https://youtu.be/EcNbRjEcb14)
