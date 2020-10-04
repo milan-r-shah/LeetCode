@@ -90,3 +90,4 @@ begin to intersect at node c1.
 1. Find intersection of two linked lists (by measuring length of both linked lists) - Vivekanand Khyade -- [video](https://youtu.be/_7byKXAhxyM)
 2. Find merge point of two linked list - mycodeschool -- [video](https://youtu.be/gE0GopCq378)
 3. Find Intersection of two Linked Lists using stack - Vivekanand Khyade -- [video](https://youtu.be/ycIMmSmkQbo)
+4. Java solution without knowing the difference in len! -- [LeetCode discussion](https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len!)
