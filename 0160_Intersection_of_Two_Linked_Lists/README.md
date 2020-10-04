@@ -89,3 +89,4 @@ begin to intersect at node c1.
 **Useful Links:**
 1. Find intersection of two linked lists (by measuring length of both linked lists) - Vivekanand Khyade -- [video](https://youtu.be/_7byKXAhxyM)
 2. Find merge point of two linked list - mycodeschool -- [video](https://youtu.be/gE0GopCq378)
+3. Find Intersection of two Linked Lists using stack - Vivekanand Khyade -- [video](https://youtu.be/ycIMmSmkQbo)
